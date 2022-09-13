@@ -68,6 +68,6 @@ function validateUser(user) {
 
   return Joi.validate(user, schema);
 }
-exports.User = User;
-exports.validateUser = validateUser;
+exports.User = user;
+exports.validateUser = validateuser;
 //module.exports = mongoose.model("User", userSchema);
