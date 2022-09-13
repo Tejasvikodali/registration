@@ -1,4 +1,4 @@
-const joi = require("joi");
+const Joi = require("Joi");
 const mongoose = require("mongoose");
 const user = mongoose.model(
   "User",
